@@ -1,8 +1,10 @@
 #! usr/bin/env node
 
 import inquirer from "inquirer";
+console.log()
 
 const systemguess = Math.floor(Math.random() * 10 +1)
+
 const recall = await inquirer.prompt([
   {
     name: "userguessnumber",
